@@ -3,26 +3,28 @@
 
 
 
-Szczegóły:
-### 1.Tworzenie katalogów
-mkdir(path): Tworzy katalog w podanej ścieżce.
+Details:
+### 1.Create directories
+mkdir(path): Creates a directory in the specified path.
 
-###  2.Tworzenie plików
-create_file(path, content): Tworzy plik w podanej ścieżce i zapisuje do niego dane.
+### 2.Create files
+create_file(path, content): Creates a file in the specified path and writes data to it.
 
-### 3.Zapisywanie danych do plików
-write_to_file(path, content): Zapisuje dane do pliku. Jeśli plik już istnieje, dane zostaną nadpisane.
+### 3.Writing data to files
+write_to_file(path, content): Writes data to a file. If the file already exists, the data will be overwritten.
 
-### 4.Odczytywanie danych z plików
-read_from_file(path): Odczytuje dane z pliku i zwraca je.
-### 5.Usuwanie plików
-delete_file(path): Usuwa plik z podanej ścieżki.
+### 4.Reading data from files.
+read_from_file(path): Reads data from a file and returns it.
+### 5.Deleting files
+delete_file(path): Deletes a file from the specified path.
 
-### 6.Usuwanie katalogów
-rmdir(path): Usuwa pusty katalog z podanej ścieżki.
+### 6.Deleting directories
+rmdir(path): Deletes an empty directory from the specified path.
 
-### 7.Wyświetlanie struktury katalogów
-ls(path): Wyświetla strukturę katalogów w podanej ścieżce.
+### 7.Display directory structure.
+ls(path): Displays the directory structure in the specified path.
+
+Translated with DeepL.com (free version)
 
 
 
